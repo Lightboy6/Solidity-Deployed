@@ -1,4 +1,4 @@
-/*
+//*
 Joint Savings Account
 ---------------------
 
@@ -85,8 +85,8 @@ contract JointSavings {
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
         // YOUR CODE HERE!
-        accountOne == account1;
-        accountTwo == account2;
+        accountOne = account1;
+        accountTwo = account2;
 
     }
 
@@ -94,5 +94,7 @@ contract JointSavings {
     Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
     */
     // YOUR CODE HERE!
-    //I dont know where to look for this, please help
+   
+    function() external payable {}
 }
+
